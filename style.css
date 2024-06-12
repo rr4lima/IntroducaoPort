@@ -1,32 +1,55 @@
 body {
-    font-family: 'Nunito Sans';
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;;
 }
 
-.Bem {
-    color: rgb(198, 154, 240);
+.header {
+    background-color: rgb(231, 190, 193);
+    color: rgb(182, 138, 138);
+    padding: 20px;
+    text-align: center;
+
 }
 
-.Sobre {
-    color: rgb(199, 155, 240);
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.Sobre {
-    color: rgb(199, 155, 240);
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.Projetos {
-    color: rgb(199, 155, 240);
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-.Projetos2 {
-    color: rgb(199, 155, 240);
+.conteudo {
+    padding: 20px;
 }
 
-.Contatos{
-    color: rgb(199, 155, 240);
+.section {
+    margin-bottom: 20px;
 }
 
-img {
-    width: 20%;
+.section h2 {
+    color: rgb(192, 147, 154)
+}
+
+.footer {
+    background-color: #ddbcbc50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img{
+    width: 15%;
     height: auto;
 }
