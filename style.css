@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 
 .header {
@@ -9,7 +9,6 @@ body {
     color: rgb(182, 138, 138);
     padding: 20px;
     text-align: center;
-
 }
 
 .header nav ul {
@@ -36,7 +35,7 @@ body {
 }
 
 .section h2 {
-    color: rgb(192, 147, 154)
+    color: rgb(192, 147, 154);
 }
 
 .footer {
@@ -49,7 +48,47 @@ body {
     bottom: 0;
 }
 
-img{
+img {
     width: 15%;
     height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .header nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .footer {
+        position: static;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header nav ul li {
+        margin: 5px 0;
+    }
+
+    .conteudo {
+        padding: 10px;
+    }
+
+    img {
+        width: 50%;
+    }
+}
+.fhr{
+    padding: 50px;
 }
