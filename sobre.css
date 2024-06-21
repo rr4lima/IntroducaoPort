@@ -52,8 +52,19 @@ body {
 
 }
 
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.section {
+    flex: 1 1 50%; /* Ajuste o tamanho das seções conforme necessário */
+}
 
+.aside {
+    flex: 1 1 30%; /* Ajuste o tamanho da parte lateral conforme necessário */
+    margin-left: 20px; /* Espaçamento para separar o conteúdo principal da lateral */
+}
 .mm {
     width: 15%;
     height: auto;
@@ -96,6 +107,3 @@ body {
     }
 }
 
-.fhr {
-    padding: 50px;
-}
