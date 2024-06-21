@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
@@ -43,23 +42,24 @@ body {
 }
 
 .footer {
-    background-color: #ddbcbc50;
+    background-color: #7e555550;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: ;
     width: 100%;
     bottom: 0;
+
 }
 
-img {
+
+
+.mm {
     width: 15%;
     height: auto;
     border-radius: 15%;
     border: 3px solid pink;
 }
-
-
 
 @media (max-width: 768px) {
     .header nav ul li {
@@ -95,6 +95,7 @@ img {
         width: 50%;
     }
 }
-.fhr{
+
+.fhr {
     padding: 50px;
 }
