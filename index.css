@@ -33,12 +33,21 @@ body {
     padding: 20px;
 }
 
-.section {
+.conteudo {
+    color: #bf9299;
+}
+
+.texto{
+    color: black;
+}
+
+section {
     margin-bottom: 20px;
+    color: #bf9299;
 }
 
 .section h2 {
-    color: hsl(351, 26%, 66%);
+    color: #bf9299;
 }
 
 .footer {
